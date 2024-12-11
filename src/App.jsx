@@ -1,11 +1,14 @@
 import { useState } from 'react'
-
+import './assets/css/style'
+import Header from './components/commun/Hooter'
+import Footer from './components/commun/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <p className='bg-success'>ggggggggggggggggggggggggggggggggggggggg</p>
+     <Header/>
+     <Footer/>
     </>
   )
 }
