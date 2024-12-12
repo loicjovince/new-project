@@ -11,7 +11,7 @@
     font-size: 2em;
  }
  h3{
-    font-size: 2.5em;
+    font-size: 1.5em;
  }
  p{
     font-size: 1.2em;
@@ -22,16 +22,64 @@
  }
 
  .btn-primary{
-   background-color: darkgoldenrod;
-   border: 1px  solid gold;
+   background-color: rgb(2, 155, 38);
+   border: 1px  solid rgb(6, 120, 25);
 
    font-size: 1em;
    font-weight: 500;  
 }
+header{
+   nav{
+       .nav-link{
+          text-transform: uppercase;  
+          margin-left: 20px;
+          font-weight: bold;
+          color: #222725; 
+          &:hover{
+           color: rgb(255, 135,135);
+        }
+       }
+       .logo{
+           text-transform: uppercase;  
+           margin-left: 20px;
+           font-weight: 500;
+           font-size: 1rem;
+           color: #222725; 
+           span{
+               color: rgb(255, 135,135);
+           }
 
-.btn-primary::hover{
-    background-color:navajowhite;
-    border: 1px  solid yellow;
+          
+       }
+   }
+}
+
+footer{
+   background-color: #222725;
+     
+     h3{
+      font-size: 1.5em;
+      color: rgb(2, 155, 38);
+      
+     }
+  
+     a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+     }
+     p{
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+     }
+    
+  }
+  
+
+.btn-primary:hover{
+    background-color:rgb(255, 135, 135);
+    border: 1px  solid rgb(255, 135,135);
 }
 
 .btn-secondary{
@@ -44,11 +92,13 @@
 
  span{
    
-   color: blue;
+   color: rgb(255, 143, 143);
        text-transform: uppercase;
        font-weight: 500;
        font-size: 1.5em;
   }
- 
+ footer{
+   background-color: rgb(22, 21, 21);
+ }
  
 

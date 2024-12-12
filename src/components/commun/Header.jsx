@@ -6,7 +6,7 @@ function Header() {
 <header>
     <div className="container py-3">
     <Navbar expand="lg" >
-      <Navbar.Brand href="/" className="logo"> <span>UrbanEdge</span>  Constructions </Navbar.Brand>
+      <Navbar.Brand href="/" className="logo"> <span>New Generation</span> Innovator</Navbar.Brand>
       <NavbarToggle arial-controls="basic-navbar-nav"/>
       <NavbarCollapse id="basic-navbar-nav"> 
         <Nav className ="ms-auto">
@@ -16,7 +16,7 @@ function Header() {
             <NavLink className="nav-link"href="/projects">Projets</NavLink>
             <NavLink className="nav-link"href="/blogs">Blog</NavLink>
             <NavLink className="nav-link"href="/contact">Contact us</NavLink>
-            <NavLink className="nav-link"href="/adminlogin">Contact us</NavLink>
+   
          </Nav>
          </NavbarCollapse>
     
