@@ -35,8 +35,16 @@ header{
           margin-left: 20px;
           font-weight: bold;
           color: #222725; 
+
           &:hover{
            color: rgb(255, 135,135);
+        }
+        span{
+   
+         color: rgb(255, 143, 143);
+             text-transform: uppercase;
+             font-weight: 500;
+             font-size: 1.5em;
         }
        }
        .logo{
@@ -90,15 +98,25 @@ footer{
    
 }
 
- span{
-   
-   color: rgb(255, 143, 143);
-       text-transform: uppercase;
-       font-weight: 500;
-       font-size: 1.5em;
-  }
+
  footer{
    background-color: rgb(22, 21, 21);
  }
  
+ .section-1{
+   .hero{
+      min-height: 800px;
+      color:white ;
+        background-image: url(../images/hero2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     /* background: linear-gradient(to right ,rgba(0,0,0,0.8) ,rgba(0,0,0,0) ),url('../images/hero.jpg');*/
 
+      span{
+          color:rgb(255, 135, 135);
+          font-size: 1.5rem;
+          font-weight: 500;
+      }
+   }
+}
