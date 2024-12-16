@@ -10,12 +10,10 @@ function Header() {
       <NavbarToggle arial-controls="basic-navbar-nav"/>
       <NavbarCollapse id="basic-navbar-nav"> 
         <Nav className ="ms-auto">
-            <NavLink className="nav-link"href="/">Home</NavLink>
-            <NavLink className="nav-link"href="/about">About us</NavLink>
+            <NavLink className="nav-link"href="/">Accueil</NavLink>
+            <NavLink className="nav-link"href="/about">A propos</NavLink>
             <NavLink className="nav-link"href="/services">Services</NavLink>
-            <NavLink className="nav-link"href="/projects">Projets</NavLink>
-            <NavLink className="nav-link"href="/blogs">Blog</NavLink>
-            <NavLink className="nav-link"href="/contact">Contact us</NavLink>
+            <NavLink className="nav-link"href="/contact">Contact </NavLink>
    
          </Nav>
          </NavbarCollapse>

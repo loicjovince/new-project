@@ -4,7 +4,7 @@
     
  }
  h1{
-    font-size: 4.5em;
+    font-size: 5.5em;
  }
 
  h2{
@@ -21,13 +21,14 @@
     list-style: none;  
  }
 
- .btn-primary{
-   background-color: rgb(2, 155, 38);
-   border: 1px  solid rgb(6, 120, 25);
 
-   font-size: 1em;
-   font-weight: 500;  
-}
+span{
+   
+   color: rgb(6, 120, 25);
+       text-transform: uppercase;
+       font-weight: 500;
+       font-size: 2em;
+  }
 header{
    nav{
        .nav-link{
@@ -37,14 +38,17 @@ header{
           color: #222725; 
 
           &:hover{
-           color: rgb(255, 135,135);
+           color: rgb(2, 155, 38);
         }
         span{
    
          color: rgb(255, 143, 143);
-             text-transform: uppercase;
-             font-weight: 500;
-             font-size: 1.5em;
+         text-transform: uppercase;
+         font-weight: 500;
+         font-size: 1rem;
+        }
+        h1{
+         text-transform: uppercase;
         }
        }
        .logo{
@@ -54,7 +58,7 @@ header{
            font-size: 1rem;
            color: #222725; 
            span{
-               color: rgb(255, 135,135);
+               color: rgb(6, 120, 25);
            }
 
           
@@ -90,13 +94,6 @@ footer{
     border: 1px  solid rgb(255, 135,135);
 }
 
-.btn-secondary{
-   background-color: #521452;
-   font-size: 1em;
-   font-weight: 500;
-   text-transform: uppercase;
-   
-}
 
 
  footer{
@@ -105,7 +102,7 @@ footer{
  
  .section-1{
    .hero{
-      min-height: 800px;
+      min-height: 600px;
       color:white ;
         background-image: url(../images/hero2.jpg);
         background-position: center;
@@ -114,9 +111,55 @@ footer{
      /* background: linear-gradient(to right ,rgba(0,0,0,0.8) ,rgba(0,0,0,0) ),url('../images/hero.jpg');*/
 
       span{
-          color:rgb(255, 135, 135);
+          color:rgb(6, 120, 25);
           font-size: 1.5rem;
           font-weight: 500;
       }
+      .btn{
+         width: 150px;
+         height: 50px;
+         color: black;
+         font-weight: 500;
+         background-color: rgb(6, 120, 25);
+      }
    }
+}
+.section-3{
+   background-color: #00a5ec;
+   height: 150px;
+   .btn{
+      width: 150px;
+      height: 50px;
+      color: black;
+      font-weight: 500;
+      background-color:white;
+      text-transform: uppercase;
+   }
+}
+.testi{
+    padding: 25px 25px 50px 25px;
+   .card{
+      border-radius: 40px;
+      margin: 20px;
+   }
+   .card-body{
+
+      .rating{
+         color: rgb(2, 155, 38)  !important;
+      }
+      .content{
+       
+        p{
+         font-size: 1em;
+        }
+       
+        .name{
+         font-size: 1em;
+         font-weight: bold;
+        }
+      }
+   }
+   .meta{
+      border-radius: 80%;
+     }
 }

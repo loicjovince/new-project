@@ -7,45 +7,44 @@ function Footer() {
     <div className="container py-5">
         <div className="row">
             <div className="col-md-3">
-                <h3 className="mb-3"> UrbandEdge Constructions </h3>
+                <h3 className="mb-3"> New Generation Innovator </h3>
                 <div className="pe-5">
-                   <p>our post-constructions services <br /> gives you peace of mid knowing <br />
-                   that  we are  still here for you even after</p>
+                   <p> confiez nous votre technologie <br /> <br />
+                   </p>
                 </div>
                
             </div>
             <div className="col-md-3">
-                <h3 className="mb-3">our services  </h3>
+                <h3 className="mb-3">Nos services  </h3>
                 <ul>
-                    <li><a href=""> speciality construction</a></li>
-                    <li><a href="">speciality construction</a></li>
-                    <li><a href="">speciality construction</a></li>
-                    <li><a href="">speciality construction</a></li>
-                    <li><a href="">speciality construction</a></li>
+                    <li><a href="">Realisation sites web</a></li>
+                    <li><a href="">maintenance reseau</a></li>
+                    <li><a href="">installation cameras</a></li>
+                    <li><a href="">services digitale</a></li>
                 </ul>
             </div>
             <div className="col-md-3">
-            <h3 className="mb-3">quick link </h3>
+            <h3 className="mb-3"> Liens </h3>
                 <ul>
-                    <li><a href="">About us </a></li>
+                    <li><a href="">A propos </a></li>
                     <li><a href=""> services</a></li>
-                    <li><a href=""> projects</a></li>
-                    <li><a href="">Blogs</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <li><a href=""> contact</a></li>
+                  
                 </ul>
             </div>
             <div className="col-md-3">
-             <h3 className="mb-3"> contact us  </h3>
+             <h3 className="mb-3"> contactez nous  </h3>
                 <ul>
-                    <li><a href="">888-000-000</a></li>
-                    <li><a href="">info@example.com</a></li>
-                    <li><a href=""></a>b-18xp cameroon <br />montreal <br />214524415522544</li>
+                    <li><a href="">(+237) 679625450 / 657386115
+                    </a></li>
+                    <li><a href="">digitalgenerationinnovator@gmail.com</a></li>
+                    <li><a href=""></a>b-18xp cameroon <br />yaounde <br />214524415522544</li>
                     
                    
                 </ul>
             </div>
             <hr />
-            <p  className="text-center pt-5"> Copyright  2024 vanou all rights reserved</p>
+            <p  className="text-center pt-5"> Copyright  2024 Ng Tech IN all rights reserved</p>
         </div>
     </div>
  </footer>
