@@ -9,7 +9,7 @@ function Footer() {
             <div className="col-md-3">
                 <h3 className="mb-3"> New Generation Innovator </h3>
                 <div className="pe-5">
-                   <p> confiez nous votre technologie <br /> <br />
+                   <p> faites nous confiance  <br /> et vous ne serrez plus decu<br />
                    </p>
                 </div>
                
@@ -17,10 +17,10 @@ function Footer() {
             <div className="col-md-3">
                 <h3 className="mb-3">Nos services  </h3>
                 <ul>
-                    <li><a href="">Realisation sites web</a></li>
+                    <li><a href=""> Realisation sites web</a></li>
                     <li><a href="">maintenance reseau</a></li>
                     <li><a href="">installation cameras</a></li>
-                    <li><a href="">services digitale</a></li>
+                    <li><a href="">services digitales</a></li>
                 </ul>
             </div>
             <div className="col-md-3">
@@ -28,7 +28,7 @@ function Footer() {
                 <ul>
                     <li><a href="">A propos </a></li>
                     <li><a href=""> services</a></li>
-                    <li><a href=""> contact</a></li>
+                    <li><a href=""> <i className="bi bi-phone" style={{ fontSize: "1rem" }}></i>  contact</a></li>
                   
                 </ul>
             </div>
@@ -38,7 +38,7 @@ function Footer() {
                     <li><a href="">(+237) 679625450 / 657386115
                     </a></li>
                     <li><a href="">digitalgenerationinnovator@gmail.com</a></li>
-                    <li><a href=""></a>b-18xp cameroon <br />yaounde <br />214524415522544</li>
+                    <li><a href="">b-18xp cameroon <br />yaounde <br />214524415522544</a></li>
                     
                    
                 </ul>

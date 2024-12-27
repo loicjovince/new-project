@@ -4,7 +4,10 @@ import Footer from './commun/Footer'
 import About from '../assets/images/hero1.jpg'
 import About1 from '../assets/images/hero3.jpg'
 import About2 from '../assets/images/b1.jpg'
+import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
+import Progre from './commun/Progre'
 //import { Swiper, SwiperSlide } from 'swiper/react';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Home() {
   return (
@@ -16,10 +19,10 @@ function Home() {
                <div className="hero d-flex align-items-center">
                   <div className="container-fluid">
                       <div className="text-center">
-                          <h1>BIENVENUE A  <span> New Generation Innovator</span></h1>
-                          <h1>Nous vous Proposons  Le deploiement  des services informatises pour votre entrprise</h1>
+                          <h1>BIENVENUE A  New GENERATION INNOVATOR </h1>
+                          <h1>Nous vous Proposons  Le deploiement  des services  informatises pour votre entrprise</h1>
                              <div className="mt-3">
-                                <button className="btn">En Savoir plus</button> 
+                                <button className="btn mt-5"><i className="bi bi-plus"style={{ fontSize: "1.5rem" }}></i> En Savoir plus</button> 
                                
                              </div>
 
@@ -30,24 +33,21 @@ function Home() {
 
             <sction className="section-3 d-flex align-items-center">
                <div className="container text-center">
-                  <h1>Contactez Nous</h1>
-                 <button className="btn btn-light"> Contactez                 </button>
-
                   
                </div>
             </sction>
             
               {/*about section */}
-              <section className="section-2 py-5 ">
-                <div className="container py-5">
+              <section className="section-2 py-3 ">
+                <div className="container py-3">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src={About} alt="" className="w-100" />
+                            <img src={About} alt="" className=" image w-90" />
                         </div>
                         
                         <div className="col-md-6">
                             <span className=""> AU SERVICE DES NOUVELLES TECHNOLOGIES </span>
-                            <p>
+                            <p className='mt-5'>
                                Nous somme une entreprise specialisée dans les solution informatiques pour les entreprises. Notre mission est de fournir
                                 des solutions informatiques innovantes pour améliorer la productivité de nos clients, nous travaillons dans: 
                            </p> 
@@ -65,27 +65,27 @@ function Home() {
                     <div className="col-md-6">
                             <span className=""> CONCEPTION DES SITES INTERNETS PROFESSIONELS </span>
                             
-                            <p> avez  vous besoin de vous faire connaitre ou encore elargir votre vision et gagner de la credibilité  au pres de votre clientele </p>
+                            <p className='mt-5'> avez  vous besoin de vous faire connaitre ou encore elargir votre vision et gagner de la credibilité  au pres de votre clientele </p>
                            
                         </div>
                         <div className="col-md-6">
-                            <img src={About1} alt="" className="w-100" />
+                            <img src={About1} alt="" className="image w-90" />
                         </div>
                     </div>
                 </div>
               </section>
 
 
-              <section className="section-2 py-5 ">
+              <section className="section-2 py-3 ">
                 <div className="container py-5">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src={About2} alt="" className="w-100" />
+                            <img src={About2} alt="" className="image w-90" />
                         </div>
                         
                         <div className="col-md-6">
                             <span className=""> installation cameras de surveillance </span>
-                            <h2> <p> prenez en main le control de vos surfaces </p></h2>
+                            <h2> <p className='mt-5'> prenez en main le control de vos surfaces </p></h2>
 
                         </div>
 
@@ -111,7 +111,7 @@ function Home() {
                </div>
               </section>
 
-              <div className="section-5 py-5">
+              <div className="section-5 py-3">
                 <div className="container">
                 <div className="section-header text-center">
                     <span>Temoignages</span>
@@ -256,16 +256,38 @@ function Home() {
             </div>
              </div> 
             </div>
+            <Progre/>
 
-
-            <section className="section-4 bg-light">
+            <section className="section-4 bg-light my-5">
                 <div className="row">
                     <div className="col-md-4">
                         <i className=" bi bi-phone"></i>
                     </div>
                 </div>
             </section>
-           
+            <section className="section-4 bg-light">
+        <div className="row text-center">
+              <div className="col-md-3">
+                 <i className="bi bi-phone" style={{ fontSize: "4rem" }}></i>
+               <p>Contactez-nous au 0123456789</p>
+              </div>
+              <div className="col-md-3">
+                <i className="bi bi-envelope" style={{ fontSize: "4rem" }}></i>
+                <p>digitalgenerationinnovator@gmail.com</p>
+              </div>
+           <div className="col-md-3">
+               <i className="bi bi-map" style={{ fontSize: "4rem" }}></i>
+               <p>Adresse de l'entreprise</p>
+            </div>
+            <div className="col-md-3">
+               <i className="bi bi-whatsapp" style={{ fontSize: "4rem" }}></i>
+               <p>Adresse de l'entreprise</p>
+            </div>
+        </div>
+</section>
+
+
+
    </main>
 
 

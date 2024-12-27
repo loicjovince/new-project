@@ -23,22 +23,24 @@
 
 
 span{
+   font-size: 1.5em;
    
    color: rgb(6, 120, 25);
        text-transform: uppercase;
        font-weight: 500;
-       font-size: 2em;
+       
   }
 header{
    nav{
        .nav-link{
-          text-transform: uppercase;  
+          text-transform: uppercase; 
+          color: rgb(2, 155, 38); 
           margin-left: 20px;
           font-weight: bold;
-          color: #222725; 
-
+         
           &:hover{
-           color: rgb(2, 155, 38);
+            color: #222725; 
+
         }
         span{
    
@@ -98,6 +100,12 @@ footer{
 
  footer{
    background-color: rgb(22, 21, 21);
+   a{
+      color: white;
+   }
+   a:hover{
+      color: rgb(2, 155, 38);
+   }
  }
  
  .section-1{
@@ -110,22 +118,31 @@ footer{
         background-size: cover;
      /* background: linear-gradient(to right ,rgba(0,0,0,0.8) ,rgba(0,0,0,0) ),url('../images/hero.jpg');*/
 
-      span{
-          color:rgb(6, 120, 25);
-          font-size: 1.5rem;
-          font-weight: 500;
-      }
+      
       .btn{
          width: 150px;
          height: 50px;
-         color: black;
+         color: white;
          font-weight: 500;
          background-color: rgb(6, 120, 25);
+         text-transform: uppercase;
       }
    }
 }
+.section-2{
+   .image {
+      transition: transform 0.3s ease; /* Transition pour l'animation */
+      width: 100%; /* Ajustez selon vos besoins */
+      height: auto; /* Garder le ratio de l'image */
+    }
+    
+    .image:hover {
+      transform: scale(1.1); /* Agrandir l'image au survol */
+    }
+}
+
 .section-3{
-   background-color: #00a5ec;
+   background-color: rgb(213, 213, 213);
    height: 150px;
    .btn{
       width: 150px;
@@ -135,6 +152,8 @@ footer{
       background-color:white;
       text-transform: uppercase;
    }
+   
+   
 }
 .testi{
     padding: 25px 25px 50px 25px;
@@ -163,3 +182,41 @@ footer{
       border-radius: 80%;
      }
 }
+
+   .skills .progress {
+      height: 60px;
+      display: block;
+      background: none;
+      border-radius: 0;
+    }
+    
+    .skills .progress .skill {
+      
+      padding: 0;
+      margin: 0 0 6px 0;
+      text-transform: uppercase;
+      display: block;
+      font-weight: 600;
+  ;
+    }
+    
+    .skills .progress .skill .val {
+      float: right;
+      font-style: normal;
+    }
+    
+    .skills .progress-bar-wrap {
+      background:white;
+      background: color-mix( transparent 90%);
+      height: 15px;
+    }
+    
+    .skills .progress-bar {
+      width:250px;
+      height: 15px;
+      transition: 0.9s;
+    
+    }
+    i{
+      font-weight: 500;
+    }
